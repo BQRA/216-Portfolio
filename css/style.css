@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+Author Name: Bora DAN
+Author Email: bora_dan@hotmail.com
+Author page on themeforest.net: http://www.themeforest.net/user/bqra/portfolio
+Author Phone Number: +(9) 0 5557465105
+*/
+
+/****** Begin Body Backgrounds ******/
+body { background: url(../images/background/bg.jpg) left top no-repeat fixed; padding: 0; margin: 0; }
+/* See also other backgrounds */
+/* body { background: url(../images/background/bg2.jpg) center center no-repeat fixed; padding: 0; margin: 0; }  */
+/* OR */
+/* body { background: url(../images/background/bg3.jpg) left top repeat fixed; padding: 0; margin: 0; } */
+/****** Begin Body Backgrounds ******/
+
+.header { height: 195px; }
+
+.logo { float: left; width: 202px; height: 88px; margin: 50px; } /* For all browsers */
+* html .logo { float: left; width: 208px; height: 88px; margin: 50px 50px 50px 25px; } /* For Internet Explorer 6 */
+
+/****** Begin Brochure and Twitter div ******/
+.header_right { float: left; width: 460px; height: 60px; overflow: hidden; padding: 4px; margin-top: 50px; border: 1px dotted #f8ed37; }
+.header_right a.get_brochure { float: left; width: 230px; height: 60px; background: url(../images/get_brochure.gif) left top no-repeat; }
+.header_right a:hover.get_brochure { background-position: left bottom; }
+.header_right a.twitter { float: left; width: 230px; height: 60px; background: url(../images/twitter.gif) left top no-repeat; }
+.header_right a:hover.twitter { background-position: left bottom; }
+/****** End Brochure and Twitter div ******/
+
+.middle { overflow: hidden; width: 1200px; }
+
+/****** Begin Left Menu div ******/
+.menu { float: left; width: 252px; border-right: 1px solid #ffffff; margin: 0 50px 0 0; text-align: right; padding: 5px 0 0 0; }
+.menu a { text-decoration: none; text-align: right; font-family: Georgia, serif; margin: 10px 0 10px 10px; font-size: 11px; font-weight: bold; font-style: italic; padding: 5px; line-height: 17px; }
+.menu a { background-color: #000000; color: #ffffff; }
+.menu a:hover {	background-color: #f8ed37; color: #000000; }
+.links { text-transform: uppercase; margin: 5px 0 0 0; padding: 10px 15px 20px 0; background-image: url(../images/nokta.gif); background-position: bottom right; background-repeat: no-repeat; }
+/****** End Brochure and Twitter div ******/
+
+/****** Begin Main Content Div ******/
+.content { width: 430px; float: left; text-align: left; /* or text-align: justify; */ background-image: url(../images/content_bg.png); font-family: Tahoma; font-size: 11px; color: #222222; padding: 20px 25px 20px 25px; line-height: 15px; }
+/* Begin Ie6 PNG fix */
+* html .content { width: 430px; float: left; text-align: left; /* or text-align: justify; */ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/content_bg.png', sizingMethod='scale'); height: 1%; font-family: Tahoma; font-size: 11px; color: #222222; padding: 20px 25px 20px 25px; line-height: 15px; }
+/* Begin Ie6 PNG fix */
+.content a { text-decoration: none; color: #a19400; padding: 2px; }
+.content img { padding: 13px; border: 1px solid #f8ed37; margin: 0 10px 5px 0; }
+/****** End Main Content Div ******/
+
+
+.management_team, .works { border-bottom: 1px solid #dcdcdc; overflow: hidden; display: inline-block; height: 100%; padding: 10px 10px 10px 0; }
+.works a.visit_button { float: left; width: 67px; height: 20px; background-image: url(../images/visit_button.gif); }
+
+.h1 { padding: 5px; display: inline-block; background-color: #f8ed37; color: #000000; font-family: Georgia; font-size: 12px; font-weight: bold; font-style: italic; }
+
+/****** Begin Next Page div ******/
+a.next_page { width: 98px; height: 350px; float: left; background-image: url(../images/next_page.png); background-repeat: no-repeat; }
+a:hover.next_page { background-image: url(../images/next_page1.png); }
+/* Ie6 PNG fix start */
+* html a.next_page { width: 98px; height: 350px; float: left; background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/next_page.png', sizingMethod='crop'); }
+* html a:hover.next_page { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/next_page1.png', sizingMethod='crop'); }
+/* Ie6 PNG fix finish */
+/****** End Next Page div ******/
+
+/****** Begin Contact Form ******/
+.contact_form input, .contact_form textarea { font-size: 11px; font-family: Georgia, Arial; width: 415px; padding: 7px; margin-bottom: 7px; border: 1px solid #cdcdcd; }
+.contact_form input:hover, .contact_form textarea:hover { border: 1px solid #f8ed37; }
+.contact_form .send_button, .contact_form .send_button:hover { width: 71px; padding: 0; border: 0; }
+#wrapper { width: 415px; margin-top: 20px; }
+#msg { display: none; position: absolute; z-index: 1003; padding-left: 7px; }
+#msgcontent { display: block; padding: 7px; min-width: 415px; max-width: 415px; font-size: 11px; }
+#msgcontent { background: #ffbbbb; border: 1px solid #c30808; font-family: Georgia, Arial; } /* editable line */
+/****** End Contact Form ******/
+
+/****** Begin Contact Info ******/
+.contact_info { font-family: Georgia, Arial; font-size: 12px; font-style: italic; display: block; border-top: 1px dotted #f8ed37; padding: 15px; line-height: 25px; }
+/****** End Contact Info ******/
+
+/****** Begin Footer ******/
+.footer { width: 430px; display: block; background-image: url(../images/content_bg.png); font-family: Tahoma; font-size: 11px; color: #999999; padding: 20px 25px 20px 25px; margin: 50px 0 0 303px; }
+/* Ie6 PNG fix start */
+* html .footer { width: 430px; font-family: Tahoma; font-size: 11px; color: #999999; padding: 20px 25px 20px 25px; margin: 50px 0 0 303px; background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/content_bg.png', sizingMethod='scale'); height: 1%; }
+/* Ie6 PNG fix finish */
+.footer a { text-decoration: none; color: #000000; padding: 1px 4px 1px 4px; }
+.footer a:hover { color: #f8ed37; background-color: #000000; }
+/****** End Footer ******/
